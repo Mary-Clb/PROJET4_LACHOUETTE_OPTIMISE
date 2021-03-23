@@ -1427,7 +1427,8 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    margin: auto;
 }
 
 .carousel-inner>.item>a>img,
@@ -1437,7 +1438,8 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+    
 }
 
 .img-rounded {
@@ -2068,6 +2070,8 @@ pre code {
     padding-right: 15px;
     padding-left: 15px
 }
+
+
 
 .col-xs-1,
 .col-xs-10,
@@ -8074,4 +8078,59 @@ button.close {
     .hidden-print {
         display: none !important
     }
+}
+
+
+/*Corrections*/
+.bloc-citation{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.citation{
+    width: 65%;
+    font-size: 1.5em;
+}
+.citation2{
+    font-style: italic;
+    font-weight: bold;
+}
+.footer{
+    
+}
+.footer__liens{
+    color: #443E40;
+    padding: 40px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color:#F3976C ;
+    margin-top: -10px;
+}
+.footer__liens ul{
+    list-style-type: none;
+    padding:10px 0px 10px 0px;
+    
+}
+.footer__liens li{
+    text-align: center;
+}
+.footer__liens a:hover{
+    color: black;
+    font-weight: bold;
+}
+
+.fontplus{
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.lighter{
+    color: white!important ;
+}
+.bolder{
+    font-weight: bolder;
 }
