@@ -16,32 +16,12 @@ Optimiser le référencement et l'accessibilité d'un site web existant qui poss
 > - Améliorer les performances technique d'un site (affichage, crawlabilité, compression des ressources, utilisation d'outils d'aide à l'audit...)
 
 > ### RESULTATS OBTENUS :
-> Analyse avec l'outil Lighthouse du navigateur Google
+> Analyse avec l'outil Lighthouse du navigateur Google - avant optimisation :  
 > 
->
+> ![Screenshot avant modifications](perf.jpg)
+> 
+> Analyse avec l'outil Lighthouse du navigateur Google - après optimisation :  
+> 
+> ![Screenshot après modifications](perfmodif.jpg)
 
 
-
-
-P4 V2-Corrections
-
-
-PAGE1
-Ajout langue du site
-changements formats images + compressions
-modifications contrastes
-suppressions liens inutiles
-ajout balise meta description et robots
-ajout balises sémantiques header, main, sections, articles, header, footer
-ajout attribut title pour les réseaux sociaux
-modifications des textes alternatifs
-suppression element li vide dans la navigation
-ajout des scripts à la fin du body
-redimensionnements des images
-ajout du lazyload sur les images
-
-
-
-PAGE2
-ajout header + footer
-corrections erreurs noms de fichiers Bootstrap et Javascripts
